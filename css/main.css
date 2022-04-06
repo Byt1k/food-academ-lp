@@ -1,0 +1,452 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0;
+  font-weight: 500;
+  line-height: 1.5em;
+  font-size: 16px;
+  color: #494949;
+  background: #fcfaf5;
+}
+
+body, h1, h2, h3, h4, p, span, img, a, menu, s{
+  padding: 0;
+  margin: 0;
+}
+
+
+h1 {
+	font-family: 'Times New Roman', serif;
+	color: #434343;
+	font-size: 50px;
+	line-height: 57px;
+}
+
+h2 {
+	font-family: 'Times New Roman', serif;
+	color: #434343;
+	font-size: 30px;
+	line-height: 34px;
+
+}
+
+h3 {
+	font-size: 32px;
+	color: #fff;
+}
+
+h4 {
+
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+
+.main {
+	background: #fcf7e8 url(../img/bg1-1.jpg) no-repeat center top / cover;
+	margin-bottom: 120px;
+	padding-bottom: 45px;
+	position: relative;
+}
+
+.main h1 {
+	margin-top: 190px;
+}
+
+.main h1 span {
+	color: #FCAD1E;
+}
+
+.main__photo-block {
+	margin-bottom: 30px;
+}
+
+.main__photo-block img {
+	margin-left: 30px;
+	box-shadow: 3px 3px 12px 5px rgba(0, 0, 0, 0.21)
+}
+
+b {
+	color: #000;
+}
+
+input {
+	padding: 12px 0;
+	font-size: 14px;
+	color: #030303;
+	display: block;
+	border: none;
+	border-bottom: 1.2px solid #020202;
+	width: 410px;
+	font-weight: 500;
+	background: none;
+}
+
+input:focus {
+	outline: none;
+}
+
+
+
+input::placeholder {
+	color: #000;
+	font-weight: 500;
+}
+
+.btn {
+	display: block;
+	font-size: 14px;
+	font-weight: 500;
+	font-family: "Times New Roman", serif;
+	line-height: 70px;
+	text-transform: uppercase;
+	width: 410px;
+	height: 70px;
+	background: #F53535;
+	box-shadow: 6px 6px 0px rgba(245, 53, 53, 0.31);
+	color: #fff;
+	border-radius: 0;
+	padding: 0;
+	transition: all 0.3s ease;
+}
+
+.btn:hover {
+	color: #fff;
+	box-shadow: 3px 3px 0px rgba(245, 53, 53, 0.31);
+}
+
+
+.main__form {
+	margin-top: -50px;
+}
+
+.cook {
+	position: relative;
+	/* background: url(../img/bg2-1.jpg) no-repeat center top / cover;
+	 */
+}
+
+.cook__photo {
+	width: 480px;
+	height: 535px;
+	background: #494949;
+	position: relative;
+}
+
+.cook__photo img {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.cook__name {
+	font-size: 40px;
+	color: #000;
+	text-align: center;
+	font-family: 'Times New Roman', serif;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	margin-top: 70px;
+	background: rgba(252, 173, 30, 0.8);
+	padding: 20px 140px;
+	text-align: left;
+	position: absolute;
+	left: 0;
+	top: 50px;	
+	width: 100vh;
+}
+
+.cook__name_text p {
+	font-family: 'Times New Roman', serif;
+	font-size: 24px;
+}
+
+.cook__name_text span {
+	font-family: 'Times New Roman', serif;
+	font-size: 24px;
+	color: #f53535;
+	text-transform: uppercase;
+
+}
+
+.cook__name_text.first {
+	margin-top: 160px;
+}
+
+.benefit {
+	background: url(../img/bg3.jpg) no-repeat center bottom  / cover;
+}
+
+.benefit__block_orange {
+	background: #FCAD1E;
+	width: 50%;
+	height: 220px;
+	color: #fff;
+}
+
+.benefit__block_gray {
+	background: #494949;
+	width: 50%;
+	height: 220px;
+	color: #fff;
+}
+
+.benefit__block_orange p, .benefit__block_gray p {
+	font-size: 50px;
+	font-weight: 700;
+	margin-top: 28px;
+	margin-bottom: 21px;
+}
+
+.image {
+	box-shadow: 3px 3px 12px 9px rgba(0, 0, 0, 0.21)
+}
+
+.benefit__form {
+	background: #FCAD1E;
+	width: 100%;
+	padding: 45px 0;
+	margin-top: 80px;
+}
+
+.benefit__form .btn {
+	margin: 30px auto 0 auto !important;
+}
+
+.footer {
+	margin-top: 90px;
+}
+
+.credits {
+	margin-top: 65px;
+	margin-bottom: 30px;
+}
+
+.footer a {
+	color: #494949;
+	font-size: 24px;
+	display: block;
+}
+
+.footer a:hover {
+	color: #494949;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Медиа-запросы */
+
+@media screen and (min-width: 1601px) {
+	.main {
+		background: #fcf7e8 url(../img/bg1-2.jpg) no-repeat center top / cover;
+	}
+  
+}
+
+@media screen and (min-width: 1400px) {
+
+  
+  
+}
+@media screen and (max-width: 1400px) {
+  
+}
+
+@media screen and (min-width: 1200px) {
+  
+
+}
+
+@media screen and (max-width: 1200px) {
+  	.main {
+		background: #fcf7e8 url(../img/bg1-3.jpg) no-repeat center top / cover;
+	}
+
+	.cook__photo {
+	    width: 100%;
+	    height: 465px;
+	    overflow: hidden;
+	}
+
+	.cook__photo img {
+		width: 95%;
+	}
+
+	.benefit__block_orange {
+		height: 275px;
+	}
+
+	.benefit__block_gray {
+		height: 275px;
+	}
+	.cook__name {
+		width: 100%;
+		padding-left: 70px; 
+	}
+
+@media screen and (max-width: 992px) {
+	.main {
+		background: #fcf7e8 url(../img/bg1.jpg) no-repeat center top / cover;
+	}
+
+	.main h1 {
+	    margin-top: 70px;
+	}
+	
+	.main__form {
+		margin-top: 50px;
+		background: #FCAD1E;
+		padding: 45px;
+	}
+
+	.cook__photo {
+	    width: 65%;
+	    margin-bottom: 30px;
+	}
+
+	.benefit__blocks {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.benefit__block_orange, .benefit__block_gray {
+		width: 100%;
+		height: 220px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.image {
+		margin-bottom: 30px;
+	}
+} 
+
+@media screen and (max-width: 576px) {
+  h1 {
+  	font-size: 39px;
+  	line-height: 45px;
+  }
+
+  h2 {
+  	font-size: 26px;
+  	line-height: 30px;
+  }
+
+  .logo-text {
+  	margin-top: 15px;
+  }
+	
+  .btn, input {
+  	width: 100%
+  	  }
+
+  .cook__name {
+  	padding-left: 20px;
+  	padding-right: 0;
+  }
+
+  .main__form {
+  	width: 100%;
+  }
+
+  .cook__photo {
+  	width: 79%;
+  }
+
+  .benefit__form {
+  	padding: 25px;
+  }
+
+  .footer {
+  	-webkit-flex-direction: column;
+  	-moz-flex-direction: column;
+  	-ms-flex-direction: column;
+  	-o-flex-direction: column;
+  	flex-direction: column;
+  	align-items: center;
+  }
+
+ .footer a {
+ 	margin-bottom: 30px;
+ }
+
+
+} 
+
+@media screen and (max-width: 500px) {
+  .main__photo-block {
+  	-webkit-flex-direction: column;
+  	-moz-flex-direction: column;
+  	-ms-flex-direction: column;
+  	-o-flex-direction: column;
+  	flex-direction: column;
+  }
+
+  .main__photo-block img {
+  	margin-left: 0;
+  	width: 100%;
+  	max-height: auto;
+  	margin-bottom: 30px;	
+  }
+
+  .benefit__block_orange div, .benefit__block_gray div  {
+  	-webkit-flex-direction: column;
+  	-moz-flex-direction: column;
+  	-ms-flex-direction: column;
+  	-o-flex-direction: column;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center !important;
+  }
+
+  .benefit__block_gray, .benefit__block_orange {
+  	height: auto
+  }
+
+  
+}
+
+@media screen and (max-width: 450px) {
+
+
+}
+@media screen and (max-width: 417px) {
+	
+	.cook__photo {
+  		width: 100%;
+  		height: 345px;
+  	}
+  
+
+}
